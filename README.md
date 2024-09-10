@@ -36,3 +36,8 @@ For any queries or feedback, feel free to reach out via:
 
 Email: hafsakanwal895@gmail.com
 GitHub: Hafsa-Kanwal
+
+**OUTPUT**
+
+![image](https://github.com/user-attachments/assets/fcdd9b07-04a0-4a6c-8424-e5c4550a831d)
+
