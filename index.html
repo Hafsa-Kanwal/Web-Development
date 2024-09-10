@@ -1,174 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML basics</title>
     <link rel="stylesheet" href="style.css">
+    <title>HTML--Practice</title>
 </head>
-
 <body>
-    <h1>My Bookmarks</h1>
-    <h2>Primary bookmarks</h2>
-    <a target="_blank" href="https://www.google.com">Open Google</a><br>
-    <a target="_blank" href="https://www.Facebook.com">Open Facebook</a><br>
-    <a target="_blank" href="https://www.linkedIn.com">Open linkedIn</a><br>
-    <a target="_blank" href="https://www.Instagram.com">Open Instagram</a><br>
-    <a target="_blank" href="https://www.Qoura.com">Open Qoura</a><br>
+    <header>
+        <nav>
+            <div class="logo">Hafsa Kanwal</div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </nav>
+    </header>
+    <main>
+    <section>
+     <h1 style="background-color: blueviolet;">Introduction</h1>
+     <p>My name is Hafsa Kanwal, and I am 20 years old.
+        I hail from the beautiful city of Rawalakot, but currently, I reside in Mirpur to pursue my studies. My father is a dedicated teacher, and I come from a large, loving family with six siblings. Growing up in a family where education is highly valued, I have always been passionate about learning and exploring new fields.</p>
+    </section>
+     <section>
+        <h1 style="background-color: rgb(223, 226, 43);">My Education</h1>
+        <p>I have recently completed my graduation in Software Engineering and am eager to continue expanding my knowledge, particularly in web design and development. Aside from my academic pursuits, I enjoy spending time with my family, engaging in creative hobbies, and staying updated with the latest trends in technology.</p>
+    </section>
+    <section>
+        <h1 style="background-color: rgb(43, 226, 58);">My Hobbies</h1>
 
+        <p>In my free time, I immerse myself in activities that align with both my professional aspirations and personal interests. I am passionate about web development and aim to become a skilled Full Stack Developer. Designing websites using WordPress is something I truly enjoy, as it allows me to combine creativity with technical expertise. Additionally, I love reading books, which not only helps me relax but also broadens my perspective and knowledge in various areas. These hobbies keep me engaged, constantly learning, and motivated to achieve my goals.</p>
+    </section>
 
-    <h2>Secondary bookmarks</h2>
-    <a target="_blank" href="https://www.wikipedia.com">Open Wikipedia</a><br>
-    <a target="_blank" href="https://www.Youtube.com">Open Youtube</a><br>
+    <section>
+        <h2 style="background-color: rgb(226, 43, 89);">Add some images related to my interests.</h2>
 
-    <!------how to add images-->
-    <img height="300px" src="images/kids.jpg" alt="kids image">
+        <img src="Images/img1.jpg" alt="" height="400px" width="400px" style="border: 1px solid black;">
+        <img src="Images/img2.jpg" alt="" height="400px" width="400px" style="border: 1px solid black;">
+        <img src="Images/img3.jpg" alt="" height="400px" width="400px" style="border: 1px solid black;">
+    </section>
+    <section>
+        <h1 style="background-color: rgb(43, 168, 226);">Video</h1>
+        <video src="Videos/Stunning Sunset Seen From The Sea _ Time lapse _ 10 Seconds Video _ Nature Blogs.mp4" controls muted></video>
+    </section>
+    <section>
+        <h1 style="background-color: rgb(226, 95, 43);">Add list of my Favourite things in unordered form</h1>
 
-    <!-------------tables---------------------------->
-    <table style="border: 1px solid black;">
-        <caption>Student Details</caption>
-        <br>
-        <thead>
+        <ul>
+            <li>Favorite Hobby: Web development and WordPress design</li>
+            <li>Favorite Book Genre: Fiction and Technology</li>
+            <li>Favorite Programming Language: Javascript</li>
+            <li>Favorite Technology: Machine Learning and Artificial Intelligence</li>
+            <li>Favorite Activity: Reading books</li>
+            <li>Favorite Food: Pasta</li>
+            <li> Favorite Place to Visit: Turkey</li>
+        </ul>
+    </section>
+    <section>
+        <h1 style="background-color: rgb(79, 77, 228);">Add list of my Favourite things in ordered form</h1>
+
+        <ol>
+            <li>Favorite Hobby: Web development and WordPress design</li>
+            <li>Favorite Book Genre: Fiction and Technology</li>
+            <li>Favorite Programming Language: Javascript</li>
+            <li>Favorite Technology: Machine Learning and Artificial Intelligence</li>
+            <li>Favorite Activity: Reading books</li>
+            <li>Favorite Food: Pasta</li>
+            <li> Favorite Place to Visit: Turkey</li>
+        </ol>
+
+        <h1 style="background-color: rgb(160, 159, 194);">Create a table that showcase my Favorite things</h1>
+    </section>
+    <section>
+        <table border="1">
+            <caption>Favorite Things</caption>
             <tr>
-                <th>Name </th>
-                <th>age</th>
-                <th>Roll-no</th>
-                <th>Grade</th>
-                <th>percentage</th>
+                <th>Catagory</th>
+                <th>Favorite Item</th>
+                <th>Reason</th>
+            </tr>
+            <tr>
+                <td>Favorite Hobby</td>
+                <td>Web Development</td>
+                <td>Combines creativity and coding</td>
+            
+            </tr>
+            <tr>
+                <td>Favorite Book Genre</td>
+                <td>Fiction and Technology</td>
+                <td>Expands imagination and knowledge</td>
 
             </tr>
-        </thead>
-        <tbody>
             <tr>
-                <td>Hafsa</td>
-                <td>20</td>
-                <td>1</td>
-                <td>A</td>
-                <td>80</td>
+                <td>Favorite Programming Language</td>
+                <td>Web Development</td>
+                <td>Combines creativity and coding</td>
             </tr>
             <tr>
-                <td>Naina</td>
-                <td>21</td>
-                <td>1</td>
-                <td>A</td>
-                <td>80</td>
+                <td>Favorite Technology</td>
+                <td>Javascript</td>
+                <td>Simple yet powerful</td>
             </tr>
             <tr>
-                <td>Iqra</td>
-                <td>22</td>
-                <td>1</td>
-                <td>A</td>
-                <td>80</td>
+                <td>Favorite Activity</td>
+                <td>Reading Books</td>
+                <td>Relaxing and informative</td>
             </tr>
-            <tr>
-                <td colspan="2">Sam</td>
-                <td>25</td>
-                <td>1</td>
-                <td>A</td>
-                <td>80</td>
-            </tr>
-        </tbody>
-        <br>
-        <tfoot>
-            <tr>
-                <td colspan="2">Pass</td>
-                <td colspan="2">Fail</td>
-            </tr>
-        </tfoot>
-    </table>
+        </table>
+    </section>
+    <section>
+<h1>
+    Simple form
+</h1>
+<form action="post">
+    <label for="Name">Enter Your Name</label>
+    <input type="text" name="Name" id="Name" placeholder="Enter your full name">
+    <br>
 
-    <!---------------Lists--------------------->
-
-    <!------unordered lists-->
-    <ul type="square">
-        <li>hafsa</li>
-        <li>nimra</li>
-        <li>iqra</li>
-    </ul>
-    <!------ordered lists-->
-    <ol type="A">
-        <li>Mango</li>
-        <li>oranges</li>
-        <li>peach</li>
-        <li>Banana</li>
-    </ol>
-    <!------Definition lists-->
-
-    <dl>
-        <dt>HTML</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, alias. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Fugiat, fuga?</dd>
-
-
-        <dt>CSS</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, alias. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Fugiat, fuga?</dd>
-
-
-
-        <dt>Javascript</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, alias. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Fugiat, fuga?</dd>
-
-    </dl>
-
-
-    <!-----------------------Forms----------------------------------------->
-    <h1>Form to apply on Web development Course</h1>
-    <form action="post">
-        <div>
-            <label for="username">Enter your user name</label>
-            <input type="text" name="username" placeholder="Enter your user name" autofocus>
-
-        </div>
-        <div>
-            <label for="gender">Enter your Gender</label>
-            <br>
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="male" value="male">
-
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="female" value="female">
-        </div>
-
-
-        <div>
-            <label for="Subscribe">Subscribe to newsletter</label>
-            <input type="checkbox" name="Subscribe" id="Subscribe" value="yes">
-        </div>
-        <label for="comment">Enter your Comment</label>
-        <br>
-        <textarea name="Comment" id="comment" rows="4" cols="50"></textarea>
-        <div>
-        </div>
-
-        <div>
-            <select name="fruits" id="">
-                <option value="Apple">Apple</option>
-                <option value="Banana">Banana</option>
-                <option value="Cheery">Cheery</option>
-                <option value="PineApple">pine Apple</option>
-            </select>
-        </div>
-    </form>
-
-
-
-    <!---inline and block element-->
-    <p style="background-color: yellow;">
-        Hey! i amhafsa kanwal
-    </p>
-    <a href="" style="background-color: blue;">hafsa kanwal</a>
-    <div style="background-color: blueviolet;">hafsa kanwal</div>
-    <span style="background-color: rgb(17, 133, 36);">i am inline element</span>
+    <label for="Email">Enter Your Name</label>
+    <input type="email" name="Email" id="Email" placeholder="Enter your full name">
 
     <br>
-    <!-----Audio , Video ,Media-->
-    <video src="Video/1 minute relaxing video with nature - A minute with nature_Flowing River.mp4" width="500"
-        height="500" controls muted poster="download.jpg"></video>
+    <label for="Gender">Enter Your Gender</label>
+  
+    <input type="radio" name="Gender" value="Male" id="Male">
+    <label for="Male">Male</label>
 
+    <input type="radio" name="Gender" value="Female" id="Female">
+    <label for="Female">Female</label>
 
+    <input type="radio" name="Gender" value="others" id="others">
+    <label for="others">others</label>
+    <br>
+    <label for="DOB">Enter you date of birth</label>
+    <input type="date" name="DOB" id="DOB">
+    <br>
+    <label for="Fav Hobbies">Checklist Your Fav Hobbies</label>
+
+    <input type="checkbox" name="Hobby" id="Reading" value="Reading">
+    <label for="Reading">Reading</label>
+    <input type="checkbox" name="Hobby" id="Coding" value="Coding">
+    <label for="Coding">Coding</label>
+    <input type="checkbox" name="Hobby" id="Designing" value="Designing">
+    <label for="Designing">Designing</label>
+<br>
+    <label for="Comments">Enter Your Comments</label><br>
+    <textarea name="Comments" id="" cols="60" rows="10"></textarea>
+  
+
+<br>
+
+    <input type="submit" value="Submit">
+</form>
+</section>
+
+</main>
+
+<footer>Made with &#128151; by Hafsa Kanwal</footer>
 </body>
-
 </html>
