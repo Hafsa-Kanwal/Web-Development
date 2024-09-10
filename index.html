@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>My Bookmarks</h1>
+    <h2>Primary bookmarks</h2>
+    <a target="_blank" href="https://www.google.com">Open Google</a><br>
+    <a target="_blank" href="https://www.Facebook.com">Open Facebook</a><br>
+    <a target="_blank" href="https://www.linkedIn.com">Open linkedIn</a><br>
+    <a target="_blank" href="https://www.Instagram.com">Open Instagram</a><br>
+    <a target="_blank" href="https://www.Qoura.com">Open Qoura</a><br>
+
+
+    <h2>Secondary bookmarks</h2>
+    <a target="_blank" href="https://www.wikipedia.com">Open Wikipedia</a><br>
+    <a target="_blank" href="https://www.Youtube.com">Open Youtube</a><br>
+
+    <!------how to add images-->
+    <img height="300px" src="images/kids.jpg" alt="kids image">
+
+    <!-------------tables---------------------------->
+    <table style="border: 1px solid black;">
+        <caption>Student Details</caption>
+        <br>
+        <thead>
+            <tr>
+                <th>Name </th>
+                <th>age</th>
+                <th>Roll-no</th>
+                <th>Grade</th>
+                <th>percentage</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hafsa</td>
+                <td>20</td>
+                <td>1</td>
+                <td>A</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Naina</td>
+                <td>21</td>
+                <td>1</td>
+                <td>A</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Iqra</td>
+                <td>22</td>
+                <td>1</td>
+                <td>A</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td colspan="2">Sam</td>
+                <td>25</td>
+                <td>1</td>
+                <td>A</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+        <br>
+        <tfoot>
+            <tr>
+                <td colspan="2">Pass</td>
+                <td colspan="2">Fail</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!---------------Lists--------------------->
+
+    <!------unordered lists-->
+    <ul type="square">
+        <li>hafsa</li>
+        <li>nimra</li>
+        <li>iqra</li>
+    </ul>
+    <!------ordered lists-->
+    <ol type="A">
+        <li>Mango</li>
+        <li>oranges</li>
+        <li>peach</li>
+        <li>Banana</li>
+    </ol>
+    <!------Definition lists-->
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, alias. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Fugiat, fuga?</dd>
+
+
+        <dt>CSS</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, alias. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Fugiat, fuga?</dd>
+
+
+
+        <dt>Javascript</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, alias. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Fugiat, fuga?</dd>
+
+    </dl>
+
+
+    <!-----------------------Forms----------------------------------------->
+    <h1>Form to apply on Web development Course</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your user name</label>
+            <input type="text" name="username" placeholder="Enter your user name" autofocus>
+
+        </div>
+        <div>
+            <label for="gender">Enter your Gender</label>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+
+
+        <div>
+            <label for="Subscribe">Subscribe to newsletter</label>
+            <input type="checkbox" name="Subscribe" id="Subscribe" value="yes">
+        </div>
+        <label for="comment">Enter your Comment</label>
+        <br>
+        <textarea name="Comment" id="comment" rows="4" cols="50"></textarea>
+        <div>
+        </div>
+
+        <div>
+            <select name="fruits" id="">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Cheery">Cheery</option>
+                <option value="PineApple">pine Apple</option>
+            </select>
+        </div>
+    </form>
+
+
+
+    <!---inline and block element-->
+    <p style="background-color: yellow;">
+        Hey! i amhafsa kanwal
+    </p>
+    <a href="" style="background-color: blue;">hafsa kanwal</a>
+    <div style="background-color: blueviolet;">hafsa kanwal</div>
+    <span style="background-color: rgb(17, 133, 36);">i am inline element</span>
+
+    <br>
+    <!-----Audio , Video ,Media-->
+    <video src="Video/1 minute relaxing video with nature - A minute with nature_Flowing River.mp4" width="500"
+        height="500" controls muted poster="download.jpg"></video>
+
+
+</body>
+
+</html>
