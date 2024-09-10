@@ -15,13 +15,19 @@ The main content consists of several sections:
 
 **Hobbies:** A list of my hobbies, including web development, WordPress design, and reading books.
 
+![OutPut-1](https://github.com/user-attachments/assets/dfd06d65-e986-47a8-be01-e1645a5e7c90)
+
 **Images:** Visual content that reflects my personal interests.
 
 **Video:** A time-lapse video to showcase media embedding in HTML.
 
+![Output-2](https://github.com/user-attachments/assets/47fb4e87-270a-4554-84e4-b5166644d5cd)
+
 **Unordered and Ordered Lists:** Displays my favorite things in both unordered and ordered lists.
 
 **Table:** A table that lists my favorite hobbies, books, and activities, along with reasons why they are my favorites.
+
+![Output3](https://github.com/user-attachments/assets/29c55374-15f9-4f9c-ab96-844759ccfebf)
 
 **Form:**
 
@@ -30,14 +36,16 @@ Allows users to check their favorite hobbies.
 Accepts user comments and submits the form.
 **Footer**
 The footer contains a small message: "Made with 💗 by Hafsa Kanwal."
-
+![Output4](https://github.com/user-attachments/assets/c2cc05df-dc43-4749-a578-5c11a690eacf)
 **Contact**
 For any queries or feedback, feel free to reach out via:
 
 Email: hafsakanwal895@gmail.com
 GitHub: Hafsa-Kanwal
 
-**OUTPUT**
 
-![image](https://github.com/user-attachments/assets/fcdd9b07-04a0-4a6c-8424-e5c4550a831d)
+
+
+
+
 
