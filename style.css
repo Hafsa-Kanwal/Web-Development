@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #070f42;
+    --text-color: White;
+    --secondary-color:#000000;
+    
+
+}
+.logo{
+    padding-left: 40px;
+}
+.nav{
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+ .nav ul{
+    display:flex;
+   
+ }
+ul li{
+    list-style: none;
+       
+}
+ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 30px;
+    font-size: 1.3rem;font-family: 'Times New Roman', Times, serif;
+}
+ul li a:hover{
+    color: var(--secondary-color);
+}
+
+
+.container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 10px;
+    border: 1px solid black;
+    padding-bottom: 30px;
+}
+ .left{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding-top: 20%;
+    padding-left: 140px;
+    
+ }
+ .left h2{
+    font-size: 2rem;
+ }
+ .left h1{
+    font-size: 2.5rem;
+    color: #070f42;
+ }
+ .left p{
+    font-size: 1.5rem;
+    padding: 20px; 
+    padding-left: 2px;
+ }
+ .icon .fa-brands {
+    font-size: 1.7rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #070f42;
+    color: var(--text-color);
+    padding: 5px; 
+    margin: 15px;
+    
+
+ }
+ .icon .fa-brands:hover{
+    background-color: #000000;
+    color: var(--text-color);
+ }
+.btn{
+    background-color: #070f42;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 15px;
+}
+.btn:hover{
+    background-color: #000000;
+    color: white;
+}
+.container-2{
+    background-color: #a0a0a3;
+    width: 100%;
+    padding: 20px 0px;
+    
+    
+}
+.container-2 .img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.img img{
+    width: 350px;
+    height: 350px;
+    box-shadow: 10px 10px 8px #888888;
+}
+.img img:hover{
+    opacity: 0.7;
+    box-shadow: 10px 10px 8px #74789e;
+}
+#footer{
+    background-color: #070f42;
+    color: var(--text-color);
+    padding: 20px;
+    text-align: center;
+}
