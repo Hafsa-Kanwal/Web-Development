@@ -3,159 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>HTML--Practice</title>
+    <title>CSS Box Model</title>
 </head>
+
+   
 <body>
-    <header>
-        <nav>
-            <div class="logo">Hafsa Kanwal</div>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact Me</a></li>
-        </nav>
-    </header>
-    <main>
-    <section>
-     <h1 style="background-color: blueviolet;">Introduction</h1>
-     <p>My name is Hafsa Kanwal, and I am 20 years old.
-        I hail from the beautiful city of Rawalakot, but currently, I reside in Mirpur to pursue my studies. My father is a dedicated teacher, and I come from a large, loving family with six siblings. Growing up in a family where education is highly valued, I have always been passionate about learning and exploring new fields.</p>
-    </section>
-     <section>
-        <h1 style="background-color: rgb(223, 226, 43);">My Education</h1>
-        <p>I have recently completed my graduation in Software Engineering and am eager to continue expanding my knowledge, particularly in web design and development. Aside from my academic pursuits, I enjoy spending time with my family, engaging in creative hobbies, and staying updated with the latest trends in technology.</p>
-    </section>
-    <section>
-        <h1 style="background-color: rgb(43, 226, 58);">My Hobbies</h1>
+<div class="nav">
+    <div class="logo">
+        <img src="Images/logoo.png" alt="" width="75" height="75">
+    </div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+    <div class="container">
+        <div class="left">
+            <h2>Hello!Its Me</h2>
+            <h1>Hafsa Kanwal</h1>
+            <h1>And I am Web Developer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nobis?</p>
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div class="btn">Contact Me</div>
+        </div>
+        <div class="right">
+            <img src="Images/right-img.png" alt="Right image" >
+        </div>
+    </div>
 
-        <p>In my free time, I immerse myself in activities that align with both my professional aspirations and personal interests. I am passionate about web development and aim to become a skilled Full Stack Developer. Designing websites using WordPress is something I truly enjoy, as it allows me to combine creativity with technical expertise. Additionally, I love reading books, which not only helps me relax but also broadens my perspective and knowledge in various areas. These hobbies keep me engaged, constantly learning, and motivated to achieve my goals.</p>
-    </section>
+    <div class="container-2">
+        <div class="img">
+        <img src="Images/img1.jpg" alt="">
+        <img src="Images/img2.jpg" alt="">
+        <img src="Images/img3.jpg" alt="">
+    </div>
 
-    <section>
-        <h2 style="background-color: rgb(226, 43, 89);">Add some images related to my interests.</h2>
+        </div>
+        
 
-        <img src="Images/img1.jpg" alt="" height="400px" width="400px" style="border: 1px solid black;">
-        <img src="Images/img2.jpg" alt="" height="400px" width="400px" style="border: 1px solid black;">
-        <img src="Images/img3.jpg" alt="" height="400px" width="400px" style="border: 1px solid black;">
-    </section>
-    <section>
-        <h1 style="background-color: rgb(43, 168, 226);">Video</h1>
-        <video src="Videos/Stunning Sunset Seen From The Sea _ Time lapse _ 10 Seconds Video _ Nature Blogs.mp4" controls muted></video>
-    </section>
-    <section>
-        <h1 style="background-color: rgb(226, 95, 43);">Add list of my Favourite things in unordered form</h1>
+<footer id="footer">Made with &#128151; by Hafsa Kanwal</footer>
 
-        <ul>
-            <li>Favorite Hobby: Web development and WordPress design</li>
-            <li>Favorite Book Genre: Fiction and Technology</li>
-            <li>Favorite Programming Language: Javascript</li>
-            <li>Favorite Technology: Machine Learning and Artificial Intelligence</li>
-            <li>Favorite Activity: Reading books</li>
-            <li>Favorite Food: Pasta</li>
-            <li> Favorite Place to Visit: Turkey</li>
-        </ul>
-    </section>
-    <section>
-        <h1 style="background-color: rgb(79, 77, 228);">Add list of my Favourite things in ordered form</h1>
-
-        <ol>
-            <li>Favorite Hobby: Web development and WordPress design</li>
-            <li>Favorite Book Genre: Fiction and Technology</li>
-            <li>Favorite Programming Language: Javascript</li>
-            <li>Favorite Technology: Machine Learning and Artificial Intelligence</li>
-            <li>Favorite Activity: Reading books</li>
-            <li>Favorite Food: Pasta</li>
-            <li> Favorite Place to Visit: Turkey</li>
-        </ol>
-
-        <h1 style="background-color: rgb(160, 159, 194);">Create a table that showcase my Favorite things</h1>
-    </section>
-    <section>
-        <table border="1">
-            <caption>Favorite Things</caption>
-            <tr>
-                <th>Catagory</th>
-                <th>Favorite Item</th>
-                <th>Reason</th>
-            </tr>
-            <tr>
-                <td>Favorite Hobby</td>
-                <td>Web Development</td>
-                <td>Combines creativity and coding</td>
-            
-            </tr>
-            <tr>
-                <td>Favorite Book Genre</td>
-                <td>Fiction and Technology</td>
-                <td>Expands imagination and knowledge</td>
-
-            </tr>
-            <tr>
-                <td>Favorite Programming Language</td>
-                <td>Web Development</td>
-                <td>Combines creativity and coding</td>
-            </tr>
-            <tr>
-                <td>Favorite Technology</td>
-                <td>Javascript</td>
-                <td>Simple yet powerful</td>
-            </tr>
-            <tr>
-                <td>Favorite Activity</td>
-                <td>Reading Books</td>
-                <td>Relaxing and informative</td>
-            </tr>
-        </table>
-    </section>
-    <section>
-<h1>
-    Simple form
-</h1>
-<form action="post">
-    <label for="Name">Enter Your Name</label>
-    <input type="text" name="Name" id="Name" placeholder="Enter your full name">
-    <br>
-
-    <label for="Email">Enter Your Name</label>
-    <input type="email" name="Email" id="Email" placeholder="Enter your full name">
-
-    <br>
-    <label for="Gender">Enter Your Gender</label>
-  
-    <input type="radio" name="Gender" value="Male" id="Male">
-    <label for="Male">Male</label>
-
-    <input type="radio" name="Gender" value="Female" id="Female">
-    <label for="Female">Female</label>
-
-    <input type="radio" name="Gender" value="others" id="others">
-    <label for="others">others</label>
-    <br>
-    <label for="DOB">Enter you date of birth</label>
-    <input type="date" name="DOB" id="DOB">
-    <br>
-    <label for="Fav Hobbies">Checklist Your Fav Hobbies</label>
-
-    <input type="checkbox" name="Hobby" id="Reading" value="Reading">
-    <label for="Reading">Reading</label>
-    <input type="checkbox" name="Hobby" id="Coding" value="Coding">
-    <label for="Coding">Coding</label>
-    <input type="checkbox" name="Hobby" id="Designing" value="Designing">
-    <label for="Designing">Designing</label>
-<br>
-    <label for="Comments">Enter Your Comments</label><br>
-    <textarea name="Comments" id="" cols="60" rows="10"></textarea>
-  
-
-<br>
-
-    <input type="submit" value="Submit">
-</form>
-</section>
-
-</main>
-
-<footer>Made with &#128151; by Hafsa Kanwal</footer>
 </body>
 </html>
