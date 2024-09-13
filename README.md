@@ -6,12 +6,11 @@ This project is a basic webpage layout created using HTML and CSS. It includes a
 - **Navigation Bar**: Includes logo and links to Home, About, Services, Portfolio, and Contact pages. 
 - **Main Content**: Features an introduction with a heading, subheading, and some social media icons.
 - **Contact Button**: A button that allows users to contact me.
--![CSS2](https://github.com/user-attachments/assets/7cab34ea-5980-4d7e-b783-718718107188)
-
+-!![CSS1](https://github.com/user-attachments/assets/7f6f1074-e037-44b0-9999-c090a4001a86)
 
 - **Image Section**: A grid of images that are styled with shadows and hover effects.
 - **Footer**: Simple footer with a personalized message.
-- ![Output-2](https://github.com/user-attachments/assets/63376db0-b0df-4476-a29c-7014dc08edb0)
+- ![CSS2](https://github.com/user-attachments/assets/7cab34ea-5980-4d7e-b783-718718107188)
 
 
 ## Technologies Used
