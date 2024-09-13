@@ -1,43 +1,25 @@
-# HTML Practice - Personal Introduction Website
+# Simple Website Layout with HTML & CSS
 
-This `README.md` file provides a complete overview of the project, describing each section of your HTML code in detail. It also includes instructions for cloning and running the project. You can add or modify any part of the README as per your needs!
+This project is a basic webpage layout created using HTML and CSS. It includes a responsive navigation bar, a content section, and a footer. This layout is built using foundational CSS techniques such as Flexbox and CSS Grid to position elements on the page.
 
-**Header**
-The header includes:
+## Features
+- **Navigation Bar**: Includes logo and links to Home, About, Services, Portfolio, and Contact pages. 
+- **Main Content**: Features an introduction with a heading, subheading, and some social media icons.
+- **Contact Button**: A button that allows users to contact me.
+- ![CSS1](https://github.com/user-attachments/assets/65bd5d6b-3fd0-478b-a2fd-8ed82af2f410)
 
-A navigation menu with links to different sections: Home, About, Blog, and Contact Me.
-**Main Content**
-The main content consists of several sections:
+- **Image Section**: A grid of images that are styled with shadows and hover effects.
+- **Footer**: Simple footer with a personalized message.
+- ![Output-2](https://github.com/user-attachments/assets/63376db0-b0df-4476-a29c-7014dc08edb0)
 
-**Introduction:** A brief personal introduction with a background color for styling.
 
-**Education:** A summary of my academic background in Software Engineering.
-
-**Hobbies:** A list of my hobbies, including web development, WordPress design, and reading books.
-
-**Images:** Visual content that reflects my personal interests.
-
-**Video:** A time-lapse video to showcase media embedding in HTML.
-
-**Unordered and Ordered Lists:** Displays my favorite things in both unordered and ordered lists.
-
-**Table:** A table that lists my favorite hobbies, books, and activities, along with reasons why they are my favorites.
-
-**Form:**
-
-Collects user data (name, email, gender, date of birth).
-Allows users to check their favorite hobbies.
-Accepts user comments and submits the form.
-**Footer**
-The footer contains a small message: "Made with 💗 by Hafsa Kanwal."
-
-**Contact**
-For any queries or feedback, feel free to reach out via:
-
-Email: hafsakanwal895@gmail.com
-GitHub: Hafsa-Kanwal
-
-**OUTPUT**
-
-![image](https://github.com/user-attachments/assets/fcdd9b07-04a0-4a6c-8424-e5c4550a831d)
-
+## Technologies Used
+- **HTML5**: Markup language for structuring the webpage.
+- **CSS3**: Styling and layout design using properties such as Flexbox and Grid.
+- **FontAwesome**: For social media icons.
+  
+## Layout Structure
+- **Header**: Contains the navigation bar with logo and menu links.
+- **Main Section**: A two-column layout using CSS Grid. The left side includes introductory text, and the right side contains an image.
+- **Image Section**: Displays a gallery of images using Flexbox, each with a hover effect.
+- **Footer**: A simple footer made using Flexbox.
