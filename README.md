@@ -1,45 +1,40 @@
-# HTML Practice - Personal Introduction Website
+# Flexbox and grid -  UltraEdit Landing Page
 
-This `README.md` file provides a complete overview of the project, describing each section of your HTML code in detail. It also includes instructions for cloning and running the project. You can add or modify any part of the README as per your needs!
+This project is a landing page for UltraEdit, designed to showcase the software with a modern, responsive layout using HTML and CSS. The page includes a header with navigation, main content with download options, and various sections using Flexbox and CSS Grid.
 
-**Header**
-The header includes:
+## Overview
 
-A navigation menu with links to different sections: Home, About, Blog, and Contact Me.
-**Main Content**
-The main content consists of several sections:
+The UltraEdit landing page includes the following main components:
 
-**Introduction:** A brief personal introduction with a background color for styling.
+- **Header:** Contains the UltraEdit logo, a navigation menu, and a call-to-action button.
+- **Main Content:** Features a download section, product information, and a grid layout for different language versions of the software.
+- **Footer:** Includes a small footer message.
 
-**Education:** A summary of my academic background in Software Engineering.
+## Features
 
-**Hobbies:** A list of my hobbies, including web development, WordPress design, and reading books.
-![OutPut-1](https://github.com/user-attachments/assets/ea65b9b2-0bd0-4bb9-88ad-c05289c09f97)
+### Header
 
-**Images:** Visual content that reflects my personal interests.
+- **Logo:** Displays the UltraEdit logo.
+- **Navigation Menu:** Includes links for:
+  - Product
+  - For Business
+  - Resources
+  - Our Support
+- **Button:** A call-to-action button labeled "Our Company".
+![Ultra-1](https://github.com/user-attachments/assets/be3310eb-04ce-40c4-8d32-3c3a344c3819)
+![ultra2](https://github.com/user-attachments/assets/0447f9d9-6bea-4323-98ee-c7360792741f)
+![ultra-3](https://github.com/user-attachments/assets/a7e3f653-da64-497d-9c85-c65d6749dc56)
 
-**Video:** A time-lapse video to showcase media embedding in HTML.
-![Output-2](https://github.com/user-attachments/assets/ae05c96d-0e45-4834-8dd5-1dddedefd5c5)
+### Main Content
 
-**Unordered and Ordered Lists:** Displays my favorite things in both unordered and ordered lists.
+1. **Introduction Section:**
+   - Brief description of the UltraEdit software with a download link.
+   - Includes a download button for the Mac or Linux version.
 
-**Table:** A table that lists my favorite hobbies, books, and activities, along with reasons why they are my favorites.
-![Output3](https://github.com/user-attachments/assets/ff098bf4-92c0-45ab-9836-271483426bcf)
+2. **Boxes Section:**
+   - Contains product details with an image and release information.
 
-**Form:**
-
-Collects user data (name, email, gender, date of birth).
-Allows users to check their favorite hobbies.
-Accepts user comments and submits the form.
-**Footer**
-The footer contains a small message: "Made with 💗 by Hafsa Kanwal."
-![Output4](https://github.com/user-attachments/assets/2d044b86-13ec-4d23-987b-db20a55067af)
-
-**Contact**
-For any queries or feedback, feel free to reach out via:
-
-Email: hafsakanwal895@gmail.com
-GitHub: Hafsa-Kanwal
-
-
+3. **Cards Section:**
+   - Uses CSS Grid to display download options for various languages.
+   - Each card includes a download button, SHA256 hash, and language information.
 
