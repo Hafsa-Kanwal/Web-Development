@@ -5,53 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>CSS Box Model</title>
+    <title>Navbar using flexbox</title>
 </head>
 
    
 <body>
-<div class="nav">
-    <div class="logo">
-        <img src="Images/logoo.png" alt="" width="75" height="75">
-    </div>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</div>
-    <div class="container">
-        <div class="left">
-            <h2>Hello!Its Me</h2>
-            <h1>Hafsa Kanwal</h1>
-            <h1>And I am Web Developer</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nobis?</p>
-            <div class="icon">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin"></i>
+    <header>
+        <div class="logo">
+        <img src="Images/UE-Logo-12.png" alt="">
+        </div>
+        <div class="nav">
+           
+            <ul>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">For Business</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Our Support</a></li>
+            </ul>
+        </div>
+        <div class="button">Our Company</div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Download UltraEdit for Windows</h1>
+            <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the text editor.</p>
+            <div class="btn"><a href="Images/ue_spanish_64.exe">Download Mac or Linux version</a></div>
+        </div>
+       
+         <div class="boxes">
+            <img src="Images/UE.jpg" alt="">
+            <h1>Download UltraEdit</h1>
+            <span>v2024.1(released 2024-08-27) | Hotfix information (2024-08-18)</span>
+         </div>
+
+          <!-- Now i made next section using grid -->
+        <div class="cards">
+            <div class="items item1">
+                <h1>English</h1>
+                <button class="bttn"><a href="Images/ue_spanish_64.exe">Download 64-bit</a></button>
+                <h6>SHA256</h6>
+                <p>02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
             </div>
-            <div class="btn">Contact Me</div>
+            <div class="items item2">
+                <h1>Deutsch</h1>
+                <span>German</span>
+                <button class="bttn"><a href="Images/ue_spanish_64.exe">Download 64-bit</a></button>
+                <h6>SHA256</h6>
+                <p>02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+            </div>
+            <div class="items item3">
+                <h1>Italiano</h1>
+                <span>Italian</span>
+                <button class="bttn"><a href="Images/ue_spanish_64.exe">Download 64-bit</a></button>
+                <h6>SHA256</h6>
+                <p>02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p></div>
+            <div class="items item4">
+                <h1>Español</h1>
+                <span>Spanish</span>
+                <button class="bttn"><a href="Images/ue_spanish_64.exe">Download 64-bit</a></button>
+                <h6>SHA256</h6>
+                <p>02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+            </div>
+            <div class="items item5">
+                <h1>français</h1>
+                <span>French</span>
+                <button class="bttn"><a href="Images/ue_spanish_64.exe">Download 64-bit</a></button>
+                <h6>SHA256</h6>
+                <p>02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p></div>
+            <div class="items item6">
+                <h1>Português brasileiro</h1>
+                <span>Brazilian Portuguese</span>
+                <button class="bttn"><a href="Images/ue_spanish_64.exe">Download 64-bit</a></button>
+                <h6>SHA256</h6>
+                <p>02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+            </div>
+            <div class="items item7">
+                <h1>日本</h1>
+                <span>Japanese</span>
+                <button class="bttn"><a href="Images/ue_spanish_64.exe">Download 64-bit</a></button>
+                <h6>SHA256</h6>
+                <p>02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+            </div>
+            <div class="items item8">
+                <h1>한국어</h1>
+                <span>Korean</span>
+                <button class="bttn"><a href="Images/ue_spanish_64.exe">Download 64-bit</a></button>
+                <h6>SHA256</h6>
+                <p>02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+            </div>
+            <div class="items item9">
+                <h1>中国</h1>
+                <span>Chinese</span>
+                <button class="bttn"><a href="Images/ue_spanish_64.exe">Download 64-bit</a></button>
+                <h6>SHA256</h6>
+                <p>02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p>
+            </div>
+            <div class="items item10">
+                <h1>中國</h1>
+                <span>Traditional Chinese</span>
+                <button class="bttn"><a href="Images/ue_spanish_64.exe">Download 64-bit</a></button>
+                <h6>SHA256</h6>
+                <p>02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779</p></div>
         </div>
-        <div class="right">
-            <img src="Images/right-img.png" alt="Right image" >
-        </div>
-    </div>
-
-    <div class="container-2">
-        <div class="img">
-        <img src="Images/img1.jpg" alt="">
-        <img src="Images/img2.jpg" alt="">
-        <img src="Images/img3.jpg" alt="">
-    </div>
-
-        </div>
-        
-
-<footer id="footer">Made with &#128151; by Hafsa Kanwal</footer>
+    </main>
 
 </body>
 </html>
